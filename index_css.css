@@ -1,1 +1,53 @@
-4r34r
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-color: ;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+<ul>
+  <li><a href="settings.html">Setari</a></li>
+  <li><a href="portofolio.html">Portofoliu</a></li>
+  <li><a href="events.html">Evenimente</a></li>
+  <li><a href="admitere.html">Admitere</a></li>
+</ul>
+
+ul {
+    list-style-type: none;
+    width: 25%;
+    height: 100%;
+    position: fixed; 
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: ;
+    border: 1px solid ;
+}
+
+li a {
+    display: block;
+    width: 60px;
+    color:;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+li:last-child {
+    border-bottom: none;
+  }
+
+li a:hover {
+    background-color:;
+    color:;
+}
